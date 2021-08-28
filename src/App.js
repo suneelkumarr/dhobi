@@ -1,7 +1,7 @@
 // import './App.css';
 import Header from './components/Header/Header'
-import React, { createContext, useEffect, useState } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import React from 'react';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   // const [ cart, setCart ] = useState([]);
