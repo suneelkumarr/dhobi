@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import Header from './components/Header/Header'
+import React, { createContext, useEffect, useState } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
+  // const [ cart, setCart ] = useState([]);
+	// const [ order, setOrder ] = useState([]);
+	// const [ products, setProducts ] = useState([]);
+
+	// useEffect(() => {
+	// 	fetch('https://smart-dhopa-server.herokuapp.com/allOrders').then((res) => res.json()).then((data) => setOrder(data));
+	// }, [order.length]);
+
+	// useEffect(() => {
+	// 	fetch('https://smart-dhopa-server.herokuapp.com/products').then((res) => res.json()).then((data) => setProducts(data));
+	// }, [products.length]);
+
+	// const contextData = { order, setOrder, products, setProducts };
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   
+			<Header />
   );
 }
 
